@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/regist">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="REGISTRASI"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <EditText
+                android:id="@+id/regUsername"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:paddingLeft="20dp"
+                android:background="@color/white"
+                android:hint="Masukkan Username Anda" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <EditText
+                android:id="@+id/regNama"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:paddingLeft="20dp"
+                android:background="@color/white"
+                android:hint="Masukkan Nama Anda"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <EditText
+                android:id="@+id/regKelas"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:paddingLeft="20dp"
+                android:background="@color/white"
+                android:hint="Masukkan Kelas"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp">
+
+
+            <EditText
+                android:id="@+id/regPass"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:paddingLeft="20dp"
+                android:background="@color/white"
+                android:inputType="textPassword"
+                android:hint="Masukkan Password"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Buat Akun"
+        android:backgroundTint="#0C4777"/>
+
+</LinearLayout>
